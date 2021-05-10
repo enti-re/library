@@ -1,6 +1,6 @@
 body{
-    color: white;
-    background-color: #375E97;
+    background-color: #E1E2EF;
+    color: black;
 }
 
 .book-form{
@@ -17,7 +17,9 @@ body{
     position: fixed;
     right: 0px;
     top: 0px;
-    margin: 50px;
+    margin: 20px;
+    font-size: 20px;
+    background-color: lightgreen;
 }
 
 .book-container{
@@ -28,6 +30,21 @@ body{
 }
 
 .book{
-    background-color: #FB6542;
+    background-color: #B497D6;
     padding: 10px;
+    color: white;
+    border-radius: 20px;
+}
+
+button{
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 5px;
+    outline: none;
+    border: none;
+}
+
+button:hover{
+    transform: scale(1.2);
+    text-decoration: underline;
 }

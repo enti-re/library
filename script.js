@@ -75,9 +75,9 @@ function createBook(books)
         read.value = books.read
 
         if(read.value=="true")
-            read.style.backgroundColor = "green";
+            read.style.backgroundColor = "#00CC99";
         else
-            read.style.backgroundColor = "red";
+            read.style.backgroundColor = "#DD1155";
 
         book.appendChild(title);
         book.appendChild(author);
@@ -89,10 +89,10 @@ function createBook(books)
         read.addEventListener("click",(e)=>{
             let value = e.target.value;
             if(value=="true")
-                read.style.backgroundColor = "red"
+                read.style.backgroundColor = "#DD1155"
             
             if(value=="false")
-                read.style.backgroundColor = "green"
+                read.style.backgroundColor = "#00CC99"
             e.target.value = (value=="true")?"false":"true"
             console.log(e.target.value);
         })
