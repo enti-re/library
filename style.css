@@ -1,0 +1,33 @@
+body{
+    color: white;
+    background-color: #375E97;
+}
+
+.book-form{
+    position: fixed;
+    top: 20%;
+    left: 40%;
+    row-gap: 10px;
+    color: white;
+    background-color: black;
+    padding: 30px;
+}
+
+.book-btn{
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    margin: 50px;
+}
+
+.book-container{
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+    gap: 10px;
+    overflow: hidden;
+}
+
+.book{
+    background-color: #FB6542;
+    padding: 10px;
+}
